@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-grp{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 500;
+    border-bottom: 2px solid #6e6b6b;
+    padding-bottom: 10px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #6e6b6b;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grp-hero{
+    display: flex;
+    margin-top: 50px;
+}
+
+.grp-one{
+    padding-right: 15px;
+}
+.full-name-grp, .email-grp, .password, .gender-grp-radio, .btn-grp, .username-grp, .phn-num-grp, .con-pass-grp{
+    padding-bottom: 30px;
+}
+
+.cancel{
+    background-color: #ff4d4d;
+    border: none;
+    padding: 10px 30px; 
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    padding: 10px 30px;
+    color: #ffff;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    background: #d43f3f;
+}
+.submit:hover{
+    background: linear-gradient(135deg, #764ba2, #667eea);
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-card">
+        <div class="registration-grp">
+            <p>Registration</p>          
+            <div class="grp-hero">
+                <div class="grp-one">
+                    <div class="full-name-grp">
+                        <label for="full-name" >Full name <span style="margin-left: 2px;">:</span></label>
+                        <input type="text" id="full-name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="email-grp">
+                        <label for="email">Email <span style="margin-left: 40px;">:</span></label>
+                        <input type="text" id="email" placeholder="Enter your name" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password <span style="margin-left: 3px;">:</span></label>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="gender-grp-radio">
+                        <label for="gender">Gender <span>:</span></label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+    
+                <div class="grp-two">
+                    <div class="username-grp">
+                        <label for="username">Username <span style="margin-left: 70px;">:</span></label>
+                        <input type="text" id="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="phn-num-grp">
+                        <label for="phn-num">Phone number <span style="margin-left: 30px;">:</span></label>
+                        <input type="text" id="phn-num" placeholder="Enter your number" required>
+                    </div>
+                    <div class="con-pass-grp">
+                        <label for="con-pass">Confirm password <span>:</span></label>
+                        <input type="password" id="con-pass" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-grp">
+                <button type="reset" class="cancel">Cancel</button>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
